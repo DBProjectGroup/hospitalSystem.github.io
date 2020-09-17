@@ -1,0 +1,6 @@
+D:\DBzuoye\hospitalDTO1\bin\Debug\hospitalDTO1.dll
+D:\DBzuoye\hospitalDTO1\bin\Debug\hospitalDTO1.pdb
+D:\DBzuoye\hospitalDTO1\obj\Debug\hospitalDTO1.csprojAssemblyReference.cache
+D:\DBzuoye\hospitalDTO1\obj\Debug\hospitalDTO1.csproj.CoreCompileInputs.cache
+D:\DBzuoye\hospitalDTO1\obj\Debug\hospitalDTO1.dll
+D:\DBzuoye\hospitalDTO1\obj\Debug\hospitalDTO1.pdb

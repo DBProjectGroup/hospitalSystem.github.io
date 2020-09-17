@@ -1,0 +1,30 @@
+﻿@model IEnumerable<patientDTO>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>病人列表</title>
+</head>
+<body>
+    <a href="~/patient/GetByID">查询</a>
+        <table>
+            <thead>
+                <tr>><td>删除</td><<td>ID</td><td>name</td><td>sex</td><td>age</td><td>ward</td></tr>
+            </thead>
+            <tbody>
+                @foreach(var p in Model)
+                {
+                <tr>><td><a href="~/patient/Delete?patient_ID=@p.patient_ID" 
+                            onclick="return confirm('是否删除 @(p.patient_name)？');">删除</a>
+                            </td><<td>@p.patient_ID</td><td>@p.patient_name</td><td>@p.patient_sex</td><td>@p.patient_age</td><td>@p.patient_ward</td></tr>
+                }
+            </tbody>
+        </table>
+</body>
+</html>
+    

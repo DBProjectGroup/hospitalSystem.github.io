@@ -1,0 +1,23 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>新增病人</title>
+</head>
+<body>
+    <form action="~/patient/AddNew" method="get">
+        ID<input type="text" name="patient_ID" />
+        name<input type="text" name="patient_name"/>
+       age<input type="text" name="patient_age" />
+       sex<input type="text" name="patient_sex" />
+        ward<input type="text" name="patient_ward" />
+        <input type="submit" value="保存" />
+    </form>
+</body>
+</html>

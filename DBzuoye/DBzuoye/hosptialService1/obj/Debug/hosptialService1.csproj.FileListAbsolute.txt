@@ -1,0 +1,16 @@
+D:\DBzuoye\hosptialService1\bin\Debug\hosptialService1.dll.config
+D:\DBzuoye\hosptialService1\bin\Debug\hosptialService1.dll
+D:\DBzuoye\hosptialService1\bin\Debug\hosptialService1.pdb
+D:\DBzuoye\hosptialService1\bin\Debug\EntityFramework.dll
+D:\DBzuoye\hosptialService1\bin\Debug\EntityFramework.SqlServer.dll
+D:\DBzuoye\hosptialService1\bin\Debug\hospitalDTO1.dll
+D:\DBzuoye\hosptialService1\bin\Debug\MySql.Data.dll
+D:\DBzuoye\hosptialService1\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\DBzuoye\hosptialService1\bin\Debug\hospitalDTO1.pdb
+D:\DBzuoye\hosptialService1\bin\Debug\EntityFramework.xml
+D:\DBzuoye\hosptialService1\bin\Debug\EntityFramework.SqlServer.xml
+D:\DBzuoye\hosptialService1\obj\Debug\hosptialService1.csprojAssemblyReference.cache
+D:\DBzuoye\hosptialService1\obj\Debug\hosptialService1.csproj.CoreCompileInputs.cache
+D:\DBzuoye\hosptialService1\obj\Debug\hosptialService1.csproj.CopyComplete
+D:\DBzuoye\hosptialService1\obj\Debug\hosptialService1.dll
+D:\DBzuoye\hosptialService1\obj\Debug\hosptialService1.pdb
