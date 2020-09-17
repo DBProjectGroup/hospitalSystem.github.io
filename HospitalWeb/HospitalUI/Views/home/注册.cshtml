@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/CSS/common.css">
+    <link rel="stylesheet" href="~/CSS/注册.css">
+    <script src="~/Scripts/注册.js"></script>
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $("#Sub").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Login",
+                    data: "ID=003&&pass=111111",//data: "id=12345&&str=test"
+                    success: function (sesponseTest) {
+                        $("#test").val(sesponseTest.account_type);
+                    },
+                    error: function () {
+                        alert("请求失败");
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div>
+        <div class="container-fluid" id="main">
+       
+             <div class="back">
+                <div class="check"></div>
+                <div class="check2"></div>
+                <ul class="table">
+                    <li>
+                        <p>首页</p>
+                        <div></div>
+                    </li>
+                    <li>
+                        <p>商品</p>
+                       <div></div>
+                   </li>
+                   <li>
+                       <p>服务</p>
+                       <div></div>
+                   </li>
+                   <li>
+                       <p>联系</p>
+                       <div></div>
+                   </li>
+                </ul>
+             </div>
+             <form method="post" action="">
+             <div class="input">
+                   <div>赶快加入<br>成为赵哥商城的一员</div>
+                   <div>
+                       <img src="./images/登录界面切片/用户名.png" alt="">
+                       <p>输入用户名</p>
+                   </div>
+                   <input type="text" name="username">
+                   <div>
+                      <img src="./images/登录界面切片/密码.png" alt="">
+                      <p>输入密码(6-12位数字或字符)</p>
+                   </div>
+                   <input type="password" name="password">
+                   <div>
+                    <img src="./images/登录界面切片/密码.png" alt="">
+                    <p>确认密码</p>
+                    </div>
+                    <input type="password" name="repassword">
+                   <input type="checkbox">
+                   <button type="submit" name="sub" id="sub">注册</button>
+                   <div>
+                       <p>已经注册？</p>
+                       <a href="./登录.html">点击登录</a>
+                   </div>
+             </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

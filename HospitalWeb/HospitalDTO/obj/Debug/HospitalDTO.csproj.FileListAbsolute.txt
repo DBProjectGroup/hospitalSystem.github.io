@@ -1,0 +1,6 @@
+G:\C#_workplace\HospitalWeb\HospitalDTO\bin\Debug\HospitalDTO.dll
+G:\C#_workplace\HospitalWeb\HospitalDTO\bin\Debug\HospitalDTO.pdb
+G:\C#_workplace\HospitalWeb\HospitalDTO\obj\Debug\HospitalDTO.csprojAssemblyReference.cache
+G:\C#_workplace\HospitalWeb\HospitalDTO\obj\Debug\HospitalDTO.csproj.CoreCompileInputs.cache
+G:\C#_workplace\HospitalWeb\HospitalDTO\obj\Debug\HospitalDTO.dll
+G:\C#_workplace\HospitalWeb\HospitalDTO\obj\Debug\HospitalDTO.pdb

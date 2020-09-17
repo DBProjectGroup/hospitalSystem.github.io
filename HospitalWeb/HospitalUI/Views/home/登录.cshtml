@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/CSS/common.css">
+    <link rel="stylesheet" href="~/CSS/登录.css">
+    <script src="~/Scripts/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $("#Sub").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/EditWard",
+                    data: "id=001",//data: "id=12345&&str=test"
+                    success: function (sesponseTest) {
+                        alert(sesponseTest[0].patient_name);
+                        //alert(sesponseTest.name);
+                    },
+                    error: function () {
+                        alert("请求失败");
+                    }
+                });
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div>
+        <div class="container-fluid" id="main">
+       
+             <div class="back">
+                <div class="check"></div>
+                <div class="check2"></div>
+                <ul class="table">
+                    <li>
+                        <p>首页</p>
+                        <div></div>
+                    </li>
+                    <li>
+                        <p>商品</p>
+                       <div></div>
+                   </li>
+                   <li>
+                       <p>服务</p>
+                       <div></div>
+                   </li>
+                   <li>
+                       <p>联系</p>
+                       <div></div>
+                   </li>
+                </ul>
+             </div>
+             <div class="input">
+                   <div>欢迎来到商城<br>注册享新人专属优惠</div>
+                   <div>
+                       <img src="./images/登录界面切片/用户名.png" alt="">
+                       <p>用户名</p>
+                   </div>
+                   <input type="text" name="username" id="username">
+                   <div>
+                      <img src="./images/登录界面切片/密码.png" alt="">
+                      <p>密码</p>
+                   </div>
+                   <input type="password" name="password" id="password">
+                   <input type="checkbox">
+                   <button type="submit" name="sub" id="Sub">登录</button>
+                   <div>
+                       <p>还没有注册？</p>
+                       <a href="~/Views/home/注册.cshtml">点击注册</a>
+                   </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

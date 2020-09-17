@@ -1,0 +1,67 @@
+﻿
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>桃饱购物登录</title>
+        <link href="~/CSS/register.css" rel="stylesheet" />
+        <link href="~/CSS/reset.css" rel="stylesheet" />
+        <script src="~/JS/register.js"></script>
+        <script src="~/JS/jquery.min.js"></script>
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function () {
+                $("#btnSub").click(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "/Home/Login",
+                        data: "ID=003&&pass=111111",//data: "id=12345&&str=test"
+                        success: function (sesponseTest) {
+                            $("#test").val(sesponseTest.account_type);
+                        },
+                        error: function () {
+                            alert("请求失败");
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div class="log">
+            <h1>注册</h1>
+            <div class="input-group">
+                <i class="want-user"></i>
+                <input type="text" name="user" class="form-control" placeholder="请输入注册账号" />
+            </div>
+            <div class="input-group">
+                <i class="want-lock"></i>
+                <input type="password" name="pass" class="form-control" placeholder="请输入注册密码" />
+            </div>
+            <div class="input-group">
+                <i class="want-lock-again"></i>
+                <input type="password" name="passAgain" class="form-control" placeholder="再次输入注册密码" />
+            </div>
+            <div class="input-group btn-group">
+                <button onclick="Submit()">完成注册</button>
+            </div>
+            <form action="~/Home/registe" method="post">
+                ID<input type="text" name="ID">姓名<input type="text" name="name">
+                <input type="submit" value="保存" />
+            </form>
+            <form action="~/Home/DoctorAdd" method="post">
+                ID<input type="text" name="ID">姓名<input type="text" name="name">科室<input type="text" name="dept">职位<input type="text" name="pos">性别<input type="text" name="sex">
+                <input type="submit" value="保存" />
+            </form>
+            <form action="~/Home/RegisterAdd" method="post">
+                ID<input type="text" name="ID">
+                <input type="submit" value="保存" />
+            </form>
+            <input type="text" id="test" name="test" />
+            <input type="button" id="btnSub" name="btnSub" value="调用Action" />
+            <form action="~/Home/Delete" method="post">
+                ID<input type="text" name="ID">
+                <input type="submit" value="保存" />
+            </form>
+        </div>
+    </body>
+    </html>

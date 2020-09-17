@@ -1,0 +1,36 @@
+
+html{font-size: 5.2083333vw;}
+body{font-size: 16px;}
+#main{height: 19.2rem;height: 10.8rem;position: relative;}
+#main .back{ background: url("../images/登录界面切片/购物类网站登录页.png") no-repeat;background-position: -6.45rem 0rem;height:10.80rem;width:12.75rem;background-size: 19.2rem 10.80rem;display: block;position: absolute;left: 6.45rem;top: 0rem;}
+#main .back .check{background: url("../images/登录界面切片/购物类网站登录页.png") no-repeat;background-position: -13.20rem -1rem;height:0.04rem;width:0.43rem;background-size: 19.2rem 10.80rem;display: block;position: absolute;left: 7.24rem;top: 1rem;}
+#main .back .check2{background: url("../images/登录界面切片/购物类网站登录页.png") no-repeat;background-position: 0 0;height:3.2rem;width:0.95rem;background-size: 19.2rem 10.80rem;display: block;position: absolute;left: 0rem;top:3.19rem;}
+#main .back .table li p{font-size:0.18rem;font-family:SourceHanSansCN;font-weight:bold;color:rgba(42,53,156,1);}
+#main .back .table li:hover{cursor:pointer;}
+#main .back .table li{position: absolute;top:0.68rem}
+#main .back .table li:nth-of-type(1){left: 7.28rem;}
+#main .back .table li:nth-of-type(2){left: 8.22rem;}
+#main .back .table li:nth-of-type(3){left: 9.15rem;}
+#main .back .table li:nth-of-type(4){left: 10.09rem;top:0.66rem}
+
+#main .back .table li div{width: 0.43rem;height: 0.04rem;background:rgba(252,90,93,1);margin-top: 0.07rem;display:none;}
+#main .back .table li:first-of-type div{display: block;}
+#main .back .table li:last-of-type div{margin-top: 0.09rem;}
+
+#main .input div:nth-of-type(1){width:4.00rem;height:1.05rem;position: absolute;left:3.47rem;top:0.80rem;font-size:0.44rem;font-family:SourceHanSansCN;font-weight:400;color:rgba(6,6,62,1);line-height: 0.64rem;}
+#main .input div:nth-of-type(2){position: absolute;left: 3.47rem;top: 2.63rem;width: 2rem;}
+#main .input div:nth-of-type(2) img{width: 0.22rem;height: 0.26rem;display: block;float: left;margin-right: 0.12rem;}
+#main .input input:nth-of-type(1){position: absolute;left: 3.47rem;top: 3.01rem;width: 3.94rem;height: 0.35rem;} 
+
+#main .input div:nth-of-type(3){position: absolute;left: 3.47rem;top: 3.84rem;width: 4rem;}
+#main .input div:nth-of-type(3) img{width: 0.22rem;height: 0.26rem;display: block;float: left;margin-right: 0.12rem;}
+#main .input input:nth-of-type(2){position: absolute;left: 3.47rem;top: 4.36rem;width: 3.94rem;height: 0.35rem;} 
+#main .input div:nth-of-type(4){position: absolute;left: 3.47rem;top: 5.05rem;width: 4rem;}
+#main .input div:nth-of-type(4) img{width: 0.22rem;height: 0.26rem;display: block;float: left;margin-right: 0.12rem;}
+#main .input input:nth-of-type(3){position: absolute;left: 3.47rem;top: 5.57rem;width: 3.94rem;height: 0.35rem;} 
+#main .input input:nth-of-type(4){position: absolute;left: 3.47rem;top: 6.55rem;} 
+#main .input input:nth-of-type(4)::after{content: "我接受《商城服务规则》";font-size:0.16rem;font-family:SourceHanSansCN;font-weight:400;color:rgba(102,102,102,1);display: inline-block;width: 2rem;margin-left: 0.32rem;}
+#main .input button{position: absolute;left: 3.47rem;top: 7.0rem;width:2.02rem;height:0.6rem;background:rgba(252,90,93,1);border-radius:0.3rem;}
+#main .input div:nth-of-type(5){position: absolute;left: 3.47rem;top: 8.0rem;}
+#main .input div:nth-of-type(5) p{display: inline-flex;float: left;}
+#main .input div:nth-of-type(5) a{margin-left: 0.2rem;color: blue;}

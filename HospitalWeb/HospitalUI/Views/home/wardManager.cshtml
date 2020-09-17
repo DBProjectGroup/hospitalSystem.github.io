@@ -1,0 +1,167 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>wardManager</title>
+    <script src="~/Scripts/vue.js"></script>
+</head>
+<body>
+    <template>
+        <div>
+            <el-input v-model="input" placeholder="请输入内容"></el-input>
+            <el-row>
+                <el-button id="btn01" type="primary" icon="el-icon-edit" v-on:click="showEditDialog">编辑病房</el-button>
+            </el-row>
+
+            <el-dialog title="提示"
+                       :visible.sync="editDialogVisible"
+                       width="1230">
+                <el-table :data="tableData"
+                          border
+                          style="width: 100%">
+                    <el-table-column fixed
+                                     prop="date"
+                                     label="日期"
+                                     width="150">
+                    </el-table-column>
+                    <el-table-column prop="name"
+                                     label="姓名"
+                                     width="180">
+                    </el-table-column>
+                    <el-table-column prop="province"
+                                     label="省份"
+                                     width="120">
+                    </el-table-column>
+                    <el-table-column prop="city"
+                                     label="市区"
+                                     width="120">
+                    </el-table-column>
+                    <el-table-column prop="address"
+                                     label="地址"
+                                     width="300">
+                    </el-table-column>
+                    <el-table-column prop="zip"
+                                     label="邮编"
+                                     width="120">
+                    </el-table-column>
+                    <el-table-column fixed="right"
+                                     label="操作"
+                                     width="240">
+                        <template slot-scope="scope">
+                            <el-button type="primary" icon="el-icon-edit" round v-on:click="handleClick(scope.row)" size="small">编辑信息</el-button>
+                            <el-button type="danger" icon="el-icon-delete" round v-on:click.native.prevent="deleteRow(scope.$index, tableData)" size="small">删除信息</el-button>
+                        </template>
+                    </el-table-column>
+                </el-table>
+                <div>
+                    <el-input placeholder="请输入内容" v-model="input1">
+                        <template slot="prepend">
+                            Http://
+                        </template>
+                    </el-input>
+                </div>
+                <div style="margin-top: 15px;">
+                    <el-input placeholder="请输入内容" v-model="input2">
+                        <template slot="append">
+                            .com
+                        </template>
+                    </el-input>
+                </div>
+                <div style="margin-top: 15px;">
+                    <el-input placeholder="请输入内容" v-model="input3" class="input-with-select">
+                        <el-select v-model="select" slot="prepend" placeholder="请选择">
+                            <el-option label="餐厅名" value="1"></el-option>
+                            <el-option label="订单号" value="2"></el-option>
+                            <el-option label="用户电话" value="3"></el-option>
+                        </el-select>
+                        <el-button slot="append" icon="el-icon-search"></el-button>
+                    </el-input>
+                </div>
+                <!-- <span>这是一段信息</span> -->
+                <span slot="footer" class="dialog-footer">
+                    <el-button v-on:click="editDialogVisible = false">取 消</el-button>
+                    <el-button type="primary" v-on:click="editDialogVisible = false">确 定</el-button>
+                </span>
+            </el-dialog>
+        </div>
+    </template>
+
+
+
+    <style>
+        .el-table {
+            margin-bottom: 50px;
+        }
+
+            .el-table th.gutter {
+                /* width:17px !important; */
+                display: table-cell !important;
+            }
+
+        .el-select .el-input {
+            width: 130px;
+        }
+
+        .input-with-select .el-input-group__prepend {
+            background-color: #fff;
+        }
+    </style>
+
+    <script>
+        export default {
+            data() {
+                return {
+                    input1: '',
+                    input2: '',
+                    input3: '',
+                    select: '',
+                    tableData: [{
+                        date: '2016-05-02',
+                        name: '王小虎',
+                        province: '上海',
+                        city: '普陀区',
+                        address: '上海市普陀区金沙江路 1518 弄',
+                        zip: 200333
+                    }, {
+                        date: '2016-05-04',
+                        name: '王小虎',
+                        province: '上海',
+                        city: '普陀区',
+                        address: '上海市普陀区金沙江路 1517 弄',
+                        zip: 200333
+                    }, {
+                        date: '2016-05-01',
+                        name: '王小虎',
+                        province: '上海',
+                        city: '普陀区',
+                        address: '上海市普陀区金沙江路 1519 弄',
+                        zip: 200333
+                    }, {
+                        date: '2016-05-03',
+                        name: '王小虎',
+                        province: '上海',
+                        city: '普陀区',
+                        address: '上海市普陀区金沙江路 1516 弄',
+                        zip: 200333
+                    }],
+                    editDialogVisible: false
+                };
+            },
+            methods: {
+                deleteRow(index, rows) {
+                    rows.splice(index, 1);
+                },
+                showEditDialog() {
+                    this.editDialogVisible = true
+                },
+            }
+        }
+    </script>
+</body>
+</html>

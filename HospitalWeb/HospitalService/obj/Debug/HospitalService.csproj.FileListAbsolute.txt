@@ -1,0 +1,16 @@
+G:\C#_workplace\HospitalWeb\HospitalService\obj\Debug\HospitalService.csprojAssemblyReference.cache
+G:\C#_workplace\HospitalWeb\HospitalService\obj\Debug\HospitalService.csproj.CoreCompileInputs.cache
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\HospitalService.dll.config
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\HospitalService.dll
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\HospitalService.pdb
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\EntityFramework.dll
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\EntityFramework.SqlServer.dll
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\HospitalDTO.dll
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\MySql.Data.dll
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\MySql.Data.Entity.EF6.dll
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\HospitalDTO.pdb
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\EntityFramework.xml
+G:\C#_workplace\HospitalWeb\HospitalService\bin\Debug\EntityFramework.SqlServer.xml
+G:\C#_workplace\HospitalWeb\HospitalService\obj\Debug\HospitalService.csproj.CopyComplete
+G:\C#_workplace\HospitalWeb\HospitalService\obj\Debug\HospitalService.dll
+G:\C#_workplace\HospitalWeb\HospitalService\obj\Debug\HospitalService.pdb

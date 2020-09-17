@@ -1,0 +1,26 @@
+*{margin:0;padding: 0;}
+ul,ol{list-style: none;}
+img{display: block;}
+a{text-decoration: none;color:rgb(177, 177, 177);}
+h1,h2,h3{font-size: 16px;}
+/* 常规重置操作 */
+
+body{font-family: Arial;}
+.l{float: left;}
+.r{float: right;}
+.clear::after{content:"";display: block;clear: both;}
+/* 清浮动 */
+/* .container{margin: 0 auto;position: relative;width:11.9rem;}
+/* 版心 width: 11.9rem;*/
+
+/* .container-fluid{width:100%;
+    min-width:19.2rem;}
+通栏  */
+.container{width: 11.9rem; position: relative;margin: 0 auto;}
+/* 版心margin-left:3.6rem;margin-right: 3.6rem; */
+.container-fluid{width: 19.2rem;}
+/* 通栏 */
+.container1{width: 12.035rem; position: relative;margin: 0 3.46rem 0 3.69rem;}
+/* 版心*/
+.container2{width: 11.02rem; position: relative;margin: 0 4.16rem 0 4.02rem;}
+/* 版心*/
