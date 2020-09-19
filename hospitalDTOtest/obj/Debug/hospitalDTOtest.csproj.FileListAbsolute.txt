@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\hospitalDTOtest.dll
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\hospitalDTOtest.pdb
+C:\Users\Administrator\source\repos\hospitalDTOtest\obj\Debug\hospitalDTOtest.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\hospitalDTOtest\obj\Debug\hospitalDTOtest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\hospitalDTOtest\obj\Debug\hospitalDTOtest.dll
+C:\Users\Administrator\source\repos\hospitalDTOtest\obj\Debug\hospitalDTOtest.pdb
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\hospitalDTOtest.dll.config
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\hospitalDTOtest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\hospitalDTOtest\obj\Debug\hospitalDTOtest.csproj.CopyComplete

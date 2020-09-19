@@ -1,0 +1,17 @@
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\hospitalServiceTest.dll.config
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\hospitalServiceTest.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\hospitalServiceTest.pdb
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\hospitalDTOtest.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\hospitalDTOtest.pdb
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\source\repos\hospitalServiceTest\obj\Debug\hospitalServiceTest.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\hospitalServiceTest\obj\Debug\hospitalServiceTest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\hospitalServiceTest\obj\Debug\hospitalServiceTest.csproj.CopyComplete
+C:\Users\Administrator\source\repos\hospitalServiceTest\obj\Debug\hospitalServiceTest.dll
+C:\Users\Administrator\source\repos\hospitalServiceTest\obj\Debug\hospitalServiceTest.pdb
+C:\Users\Administrator\source\repos\hospitalServiceTest\bin\Debug\hospitalDTOtest.dll.config
